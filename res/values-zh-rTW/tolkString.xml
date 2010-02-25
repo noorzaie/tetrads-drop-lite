@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="GAME_INVITE">Invite:AunnDroid:%s:</string>
+	<string name="COURTESY_REPLY"> 啊... 我現在正在玩%s. \n 可以請稍候再給我發資訊麼? 謝謝!</string>
+	<string name="INVITE_MSG">\s 想和你玩%s.</string>
+	<string name="APP_NOT_RUNNING_MSG">你的朋友顯然沒有執行%s或未連線. 稍後再試.</string>
+	<string name="ALREADY_PLAYING_MSG">\s已經在玩%s.</string>
+
+	<string name="a2a_label">A2A</string>
+	<string name="friendId_box_title">輸入朋友的 Gmail ID</string>
+	<string name="PRESENCE_STATUS">讓我們一起 Tolk!!!</string> <!-- 開始玩 ! = Playing -->
+
+	<string name="CONNECTING_TO_GOOGLE">正在連線到 google ...</string>
+	<string name="RECEIVING_FILE">正在接收檔案...</string>
+	<string name="SENDING_FILE">正在發送檔案 ...</string>
+	<string name="FIRST_TIME_LOGIN">這是你第一次登陸。請在登陸後再次按 A2A。</string>
+	<!-- //Error -->
+	<string name="USERNAME">使用者名稱</string>
+	<string name="PASSWORD">密碼</string>
+	<string name="FRIEND_ID">朋友 ID</string>
+	<string name="GTALK_ERROR">Gtalk 錯誤</string>
+	<string name="RESETTING_THE_GAME">\s 重設遊戲。</string>
+	<string name="DEFAULT_HITTER_TITLE">錯誤預設</string>
+	<string name="DEFAULT_HITTER_MSG">\s 已經按了預設。請讓我們直到此錯誤。.</string>
+	<string name="CANCEL_REPLY_MSG">\s 已經取消了邀請。</string>
+	<string name="JUST_IM_YOU">\s 正在與你 IM。</string>
+	<string name="DECLINIED_INVITE">\'s 邀請已經被謝絕。</string>
+	<string name="FRIEND_NOT_RESPONDING">你的朋友沒有回應。繼續等待還是取消遊戲?</string>
+	<string name="GETTING_NO_RESPONSE_MSG">沒有收到系統回應。或許, 你的朋友已經結束了。遊戲已取消。</string>
+	<string name="SEARCH_AUNNDROID">要獲取新的游戲和更新, 在電子市場和 Facebook 中搜尋 \"aunndroid\"。</string>
+
+	<!-- Dialog String -->
+	<string name="START">開始</string>
+	<string name="WAIT">等待</string>
+	<string name="ENTER_USERNAME_AND_PASSWORD">谷歌使用者名和密碼</string>
+	<string name="FRIENDID_IS_USERNAME">你一定是在開玩笑! 你不能與自己玩遊戲。請輸入你朋友的 ID 而不是你的!</string>
+	<string name="CONNECTION_ERROR">連線錯誤</string>
+	<string name="NO_CONNECTION">無法連線到谷歌IM伺服器。檢查你的網路連線並稍後再試。</string>
+	<string name="USER_PASSWORD">無法登陸到谷歌伺服器。請確保你的使用者名稱和密碼正確。</string>
+	<string name="CONNECT_FIRST_TITLE">連線到 A2A</string>
+	<string name="CONNECT_FIRST_MSG">如果你想與朋友玩/聊天, 首先按 "A2A" 來連線和要求朋友。</string>
+	<string name="DISCONNECT">斷開連線</string>
+	<string name="FILE_TRANSFER_SUCCESS">檔案傳輸成功完成。</string>
+	<string name="FILE_TRANSFER_FAILED">檔案傳輸失敗。</string>
+	<string name="FILE_TRANSFER_FAILED_TITLE">>檔案傳輸失敗</string>
+	<string name="FILE_TRANSFER_FAILED_BODY">檔案傳輸失敗。如果沒有Gtalk/網路錯誤, 重試檔案傳輸。</string>
+    <string name="CHANGE_LOGIN_INFO">變更登入資訊</string>
+	<string name="LITE_GAME_MSG">免費版只能等待付費版開始 A2A。請獲取付費版來啟動 A2A。</string>
+	<string name="LITE_GAME_TITLE">免費遊戲</string>
+	<!-- Frequently used Strings -->
+	<string name="A2A">AunnDroid 2 AunnDroid</string>
+	<string name="FRIEND_CONNECTION_LOST_TITLE">朋友斷開</string>
+	<string name="FRIEND_CONNECTION_LOST_MSG">\s 已斷開或失去聯絡。</string>
+	<string name="TOLKING_CHEAP">請, 節省一些零錢來購買這個很酷的程式? :P 我沒Tolk了。</string>
+	<string name="CHEAP_TOLKER">沒有更多的Tolk了。從朋友那裡借些幣購買此程式。 :D</string>
+	<string name="TOLK">Tolk</string>
+	<string name="AUTO_DISCONNECT_TITLE">自動斷開</string>
+	<string name="AUTO_DISCONNECT_MSG">為了保護你的系統資源, 程式會自動斷開。</string>
+	<string name="LETS_TOLK">讓我們一起 Tolk!!!</string>
+	<string name="IS_LOGON_TO">\s 已登入到 \s</string>
+	<string name="IS_LOGOFF_FROM">\s 已注銷 \s</string>
+	<string name="WHAT_IS_A2A">A2A (Aunndroid 2 Aunndroid) : 進行跨運營商, 跨手機的游戲。\n\n</string>
+	<string name="ME">Me</string>
+    <string name="play_label">開始</string>
+    <string name="about_label">關於</string>
+    <string name="exit_label">結束</string>
+    <string name="about_text">Tetrads Drop 是由 AunnDroid Software 為您帶來的"</string>
+    <string name="menu_label">功能表</string>
+	<string name="YES">是</string>
+	<string name="NO">否</string>
+	<string name="CANCEL">取消</string>
+	<string name="OK">好</string>
+	<string name="eula_title">授權和致謝</string>
+	<string name="eula_accept">接受</string>
+	<string name="eula_refuse">拒絕</string>
+	<string name="setting">設定</string>
+<!-- Code -->
+
+	<string name="HOST_CODE">talk.google.com</string>
+	<string name="SERVICE_CODE">gmail.com</string>
+	<!-- SharePreferences String -->
+	<string name="USERNAME_CODE">Username</string>
+	<string name="PASSWORD_CODE">Password</string>
+	<string name="STORELOGIN_CODE">StoredLogin</string>
+	<string name="prefFile_CODE">prefFile</string>
+	<string name="FRIEND_ID_CODE">FriendID</string>
+
+	<color name="red">#ff00ff</color>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Tetrads!</string>
+    <string name="app_name">Tetrads Drop Lite</string>
+    <string name="number_label">计数</string>
+    <string name="pic_sel_label">图片</string>
+    <string name="RESOURCE_ID_CODE">TetradsDrop</string>
+    <string name="new_game_label">新游戏</string>
+	<string name="single_label">单人</string>
+	<string name="FRIEND_OR_FOE_TITLE">朋友或敌人</string>
+	<string name="FRIEND_OR_FOE_MSG">朋友合作。敌人对战</string>
+	<string name="COLLABORATE">合作</string>
+	<string name="COMPETE">对战</string>
+	<string name="FUNNY_THING">哎唷! 刚刚发生了有趣的事情! 让我们重新开始。</string>
+	<string name="WAIT_FOR_RESPONSE">等待响应。</string>
+	<string name="WAIT_FOR_GAME_OPTION">等待游戏选项。</string>
+	<string name="ENDING_GAME">结束游戏</string>
+	<string name="ENDING_MESSAGE">结束当前 A2A 会话。如果也想结束网络连接, 点击 "断开"。否者, 点击 "结束会话" 来仅结束当前会话。</string>
+	<string name="END_SESSION">结束会话</string>
+	<string name="FRIEND_END_GAME_TITLE">对手结束游戏</string>
+	<string name="FRIEND_END_GAME_MSG">您的朋友已经结束了游戏。如果您想断开连接, 点击 "断开"。否者, 点击 "结束会话" 来仅结束当前会话。</string>
+	<string name="FRIEND_LOST_CONNECTION">您的朋友已经断开了连接。如果您想断开连接, 点击 "断开"。否者, 点击 "结束会话" 来仅结束当前会话。</string>
+	<string name="VICTORY_TITLE">胜利!!!</string>
+	<string name="VICTORY_MSG">\s 无法承受你令人惊叹的高超技巧而失败了。</string>
+	<string name="GAME_OPTION_TITLE">游戏选项</string>
+	<string name="GAME_OPTION_MSG">\s 被点击!\n开始-开始游戏。\n请求-请求一个不同的选项。</string>
+	<string name="PLAY">开始</string>
+	<string name="REQUEST">请求</string>
+	<string name="REQUEST_OPTION_TITLE">邀请选项</string>
+	<string name="REQUEST_OPTION_MSG">\s 邀请要开始一个不同的游戏选项。</string>
+	<string name="Cancel_Current_Game"> 这将会取消当前游戏。确认么? </string>
+	<string name="YOUR_TURN">轮到你了。</string>
+	<string name="SCORE">得分 :\s</string>
+	<string name="LINES">行数 :\s</string>
+	<string name="LEVEL">等级 :\s </string>
+	<string name="COLLABORATE_GAMEOVER_TITLE">结束旅行</string>
+	<string name="COLLABORATE_GAMEOVER_MSG">在一起我们获得了 :</string>
+	<string name="TETRADS_FRIEND_LITE_GAME_MSG">游戏已停止，因为您的朋友使用的是此游戏的免费版。</string>
+	<string name="TETRADS_LITE_GAME_MSG">这是此游戏的免费版并且不能再继续玩了。请购买完整版来享用无限制的乐趣。</string>
+</resources>

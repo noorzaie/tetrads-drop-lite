@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Tetrads!</string>
+    <string name="app_name">Tetrads Drop Lite</string>
+    <string name="number_label">計數</string>
+    <string name="pic_sel_label">圖片</string>
+    <string name="RESOURCE_ID_CODE">TetradsDrop</string>
+    <string name="new_game_label">新遊戲</string>
+	<string name="single_label">單人</string>
+	<string name="FRIEND_OR_FOE_TITLE">朋友或敵人</string>
+	<string name="FRIEND_OR_FOE_MSG">朋友合作。敵人對戰</string>
+	<string name="COLLABORATE">合作</string>
+	<string name="COMPETE">對戰</string>
+	<string name="FUNNY_THING">哎唷! 剛剛發生了有趣的事情! 讓我們重新開始。</string>
+	<string name="WAIT_FOR_RESPONSE">等待回應。</string>
+	<string name="WAIT_FOR_GAME_OPTION">等待遊戲選項。</string>
+
+	<string name="ENDING_GAME">結束遊戲</string>
+	<string name="ENDING_MESSAGE">結束當前 A2A 工作階段。如果也想結束網路連線, 按 "斷開"。否者, 按 "結束工作階段" 來僅結束當前工作階段。</string>
+	<string name="END_SESSION">結束工作階段</string>
+	<string name="FRIEND_END_GAME_TITLE">對手結束遊戲</string>
+	<string name="FRIEND_END_GAME_MSG">您的朋友已經結束了遊戲。如果您想斷開連線, 按 "斷開"。否者, 按 "結束工作階段" 來僅結束當前工作階段。</string>
+	<string name="FRIEND_LOST_CONNECTION">您的朋友已經斷開了連線。如果您想斷開連線, 按 "斷開"。否者, 按 "結束工作階段" 來僅結束當前工作階段。</string>
+	<string name="VICTORY_TITLE">勝利!!!</string>
+	<string name="VICTORY_MSG">\s 無法承受你令人驚歎的高超技巧而失敗了。</string>
+	<string name="GAME_OPTION_TITLE">遊戲選項</string>
+	<string name="GAME_OPTION_MSG">\s 被按!\n開始-開始遊戲。\n請求-請求一個不同的選項。</string>
+	<string name="PLAY">開始</string>
+	<string name="REQUEST">請求</string>
+	<string name="REQUEST_OPTION_TITLE">邀請選項</string>
+	<string name="REQUEST_OPTION_MSG">\s 邀請要開始一個不同的遊戲選項。</string>
+	<string name="Cancel_Current_Game"> 這將會取消當前遊戲。確認麼? </string>
+	<string name="YOUR_TURN">輪到你了。</string>
+	<string name="SCORE">得分 :\s</string>
+	<string name="LINES">行數 :\s</string>
+	<string name="LEVEL">等級 :\s </string>
+	<string name="COLLABORATE_GAMEOVER_TITLE">結束旅行</string>
+	<string name="COLLABORATE_GAMEOVER_MSG">在一起我們獲得了 :</string>
+	<string name="TETRADS_FRIEND_LITE_GAME_MSG">游戲已停止，因為您的朋友使用的是此游戲的免費版。</string>
+	<string name="TETRADS_LITE_GAME_MSG">這是此游戲的免費版并且不能再繼續玩了。請購買完整版來享用無限制的樂趣。</string>
+</resources>
