@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/widget35"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:TdView="http://schemas.android.com/apk/res/com.aunndroid.View.TdView"
+	xmlns:SView="http://schemas.android.com/apk/res/com.aunndroid.View.SView"
+	xmlns:app="http://schemas.android.com/apk/res/com.aunndroid.TetradsDropLite">
+
+	<com.aunndroid.View.TdView
+		android:id="@+id/tDview"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="0.0"
+		android:scaleType="center"
+		android:layout_alignParentTop="true" />
+
+
+    <TextView
+          android:id="@+id/number"
+		  android:visibility="invisible"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:gravity="center_horizontal"
+          android:textColor="#ff1e90ff"
+          android:textStyle="bold"
+          android:shadowColor="#88ffffff"
+          android:shadowDx="1.8"
+          android:shadowDy="1.8"
+    	  android:shadowRadius="0.1"
+          android:typeface="sans"
+          android:textSize="192dp"/>
+
+     <TextView
+          android:id="@+id/demo_to"
+		  android:visibility="gone"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:gravity="center_horizontal"
+          android:textColor="#881e90ff"
+		  android:text="www.kuqu.com"
+          android:typeface="sans"
+          android:textSize="30dp"/>
+
+	<com.aunndroid.View.SView
+		android:id="@+id/sView"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="0.0"
+		android:layout_marginLeft="4dp"
+		android:scaleType="center"
+		android:layout_toRightOf="@+id/tDview" />
+
+	<LinearLayout
+		android:id="@+id/button_group"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_marginTop="40dip"
+		android:layout_marginLeft="4dp"
+		android:layout_centerHorizontal="true"
+		android:minWidth="75dp"
+		android:layout_toRightOf="@id/sView"
+		android:orientation="vertical">
+		<ToggleButton
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:id="@+id/single_toggle_button"
+			android:textOff="@string/single_label"
+			android:textOn="@string/single_label"
+			android:layout_gravity="center"/>
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:text="@string/TOLK"
+			android:id="@+id/tolk_button1"
+			android:layout_gravity="center"/>
+
+		<Button android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:id="@+id/a2a_button"
+			android:text="@string/a2a_label"
+			android:layout_gravity="center"/>
+		</LinearLayout>
+	      <com.admob.android.ads.AdView
+		  android:layout_toRightOf="@id/sView"
+          android:layout_below="@+id/button_group"
+          android:visibility="visible"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/ad"
+          app:keywords="aunndroid tolk"
+          app:testing="false"/>
+</RelativeLayout>

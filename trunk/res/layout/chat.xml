@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:id="@+id/tolk_layout"
+		android:background="@color/background"
+        android:orientation="vertical"
+		android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center">
+
+		<LinearLayout			
+        	android:orientation="horizontal"	
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content">        
+        <TextView 
+	        android:id="@+id/TextView01" 
+	        android:text="To : "
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content" 
+	        android:textColor="@color/dark" 
+	        android:layout_marginLeft="6dp"
+	        android:minWidth="40dp" android:textStyle="bold"/>	        
+        <EditText android:id="@+id/to_edit_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:autoText="false"
+            android:capitalize="none"
+			android:padding="6dp" 
+			android:minWidth="250dp"
+			android:maxWidth="250dp"/>			
+		</LinearLayout>
+		
+		<LinearLayout			
+        	android:orientation="horizontal"	
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content">
+        <TextView 
+	        android:id="@+id/TextView02" 
+	        android:text="Msg : "
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/dark"
+	        android:minWidth="40dp"
+	        android:layout_marginLeft="6dp" 
+	        android:textStyle="bold"/>
+	        <EditText android:id="@+id/tolk_edit_text"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:singleLine="true"
+	            android:textSize="16sp"
+	            android:autoText="false"
+	            android:capitalize="none"
+				android:padding="6dp"
+				android:minWidth="250dp"
+				android:maxWidth="250dp"/>
+		</LinearLayout>
+	
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:id="@+id/tolk_chat_button"
+		android:text="@string/TOLK"
+		android:padding="6dp"
+    	android:layout_gravity="center"/>
+</LinearLayout>

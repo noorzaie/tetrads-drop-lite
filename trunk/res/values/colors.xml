@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="background">#ffffffff</color>
+		<color name="pzl_background">#ff000000</color>
+		<color name="pzl_hilite">#ffffffff</color>
+		<color name="pzl_light">#64c6d4ef</color>
+		<color name="pzl_dark">#6456648f</color>
+		<color name="pzl_foreground">#ff000000</color>
+		<color name="pzl_selected">#64ff8000</color>
+		<color name="dark">#ff000000</color>
+		<color name="solid_orange">#ffff8000</color>
+		<color name="solid_cadet_blue">#ff5f9ea0</color>
+		<color name="solid_royal_blue">#ff4169e1</color>
+		<color name="solid_steel_blue">#ff4682b4</color>
+<!--		<color name="solid_">#ff</color>   -->
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Tetrads!</string>
+    <string name="app_name">Tetrads Drop Lite</string>
+    <string name="number_label">Numbered</string>
+    <string name="pic_sel_label">Picture</string>
+    <string name="RESOURCE_ID_CODE">TetradsDrop</string>
+    <string name="new_game_label">New Game</string>
+	<string name="single_label">Single</string>
+	<string name="FRIEND_OR_FOE_TITLE">Friend or Foe</string>
+	<string name="FRIEND_OR_FOE_MSG">Friend Collaborates. Foe competes</string>
+	<string name="COLLABORATE">Collaborate</string>
+	<string name="COMPETE">Compete</string>
+	<string name="FUNNY_THING">Ouch! Funny thing just happened! Let's start again. </string>
+	<string name="WAIT_FOR_RESPONSE">Waiting for the response.</string>
+	<string name="WAIT_FOR_GAME_OPTION">Waiting for the Game options.</string>
+	<string name="ENDING_GAME">Ending the Game</string>
+	<string name="ENDING_MESSAGE">Ending the current A2A session. If you want to disconnect from network too, Click "Disconnect". Otherwise, Click "End Session" to end the current session only. </string>
+	<string name="END_SESSION">End Session</string>
+	<string name="FRIEND_END_GAME_TITLE">Opponent end the Game</string>
+	<string name="FRIEND_END_GAME_MSG">Your friend has ended the game. If you want to disconnect, Click "Disconnect". Otherwise, Click "End Session" to end the current session only. </string>
+	<string name="FRIEND_LOST_CONNECTION">Your friend has lost connection. If you want to disconnect, Click "Disconnect". Otherwise, Click "End Session" to end the current session only.</string>
+	<string name="VICTORY_TITLE">Victory!!!</string>
+	<string name="VICTORY_MSG">\s cannot take the pressure of your awesome skill and lose it.</string>
+	<string name="GAME_OPTION_TITLE">Game options</string>
+	<string name="GAME_OPTION_MSG">\s is clicked!\nPlay-Start playing.\nRequest-Request a different option.</string>
+	<string name="PLAY">Play</string>
+	<string name="REQUEST">Request</string>
+	<string name="REQUEST_OPTION_TITLE">Request option</string>
+	<string name="REQUEST_OPTION_MSG">\s is requesting for a different game option to play.</string>
+	<string name="Cancel_Current_Game"> This will cancel the current game. Ok? </string>
+	<string name="YOUR_TURN">Your Turn.</string>
+	<string name="SCORE">Score :\s</string>
+	<string name="LINES">Lines :\s</string>
+	<string name="LEVEL">Level :\s </string>
+	<string name="COLLABORATE_GAMEOVER_TITLE">End of the journey</string>
+	<string name="COLLABORATE_GAMEOVER_MSG">Together we get :</string>
+	<string name="SINGLE_GAMEOVER_TITLE">Game Over</string>
+	<string name="SINGLE_GAMEOVER_MSG"></string>
+	<string name="TETRADS_FRIEND_LITE_GAME_MSG">The Game has stopped because your friend only has lite version of the game. </string>
+	<string name="TETRADS_LITE_GAME_MSG"> This is a lite version of the game and cannot play further. Please buy the full version to enjoy the game unrestrictive. </string>
+</resources>

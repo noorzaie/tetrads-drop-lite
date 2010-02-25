@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="GAME_INVITE">Invite:AunnDroid:%s:</string>
+	<string name="COURTESY_REPLY"> Ah... I am playing %s at the moment. \n Can you please send the message again later? Thanks!</string>
+	<string name="INVITE_MSG">\s wants to play %s with you.</string>
+	<string name="APP_NOT_RUNNING_MSG">Your friend apparently has not started %s app or not connected yet. Wait for a bit and try again.</string>
+	<string name="ALREADY_PLAYING_MSG">\s is already playing %s.</string>
+
+	<string name="a2a_label">A2A</string>
+	<string name="friendId_box_title">Enter Friend Gmail ID</string>
+	<string name="PRESENCE_STATUS">Let\'s Tolk!!!</string>
+
+	<string name="CONNECTING_TO_GOOGLE">Connecting to google ...</string>
+	<string name="RECEIVING_FILE">Receiving File...</string>
+	<string name="SENDING_FILE">Sending File ...</string>
+	<string name="FIRST_TIME_LOGIN">You are logging in for the first time. Please click A2A again after login.</string>
+	<!-- //Error -->
+	<string name="USERNAME">Username</string>
+	<string name="PASSWORD">Password</string>
+	<string name="FRIEND_ID">FriendID</string>
+	<string name="GTALK_ERROR">Gtalk Error</string>
+	<string name="RESETTING_THE_GAME">\s Resetting the game.</string>
+	<string name="DEFAULT_HITTER_TITLE">Error Default</string>
+	<string name="DEFAULT_HITTER_MSG">\s has hit default. Please let us know about this error.</string>
+	<string name="CANCEL_REPLY_MSG">\s has canceled the invite.</string>
+	<string name="JUST_IM_YOU">\s just IM you.</string>
+	<string name="DECLINIED_INVITE">\'s invite has been declinied.</string>
+	<string name="FRIEND_NOT_RESPONDING">Your friend is not responding. Do you want to wait or cancel the game?</string>
+	<string name="GETTING_NO_RESPONSE_MSG">Getting no System response. Maybe, your friend has quit. Cancel the game.</string>
+	<string name="SEARCH_AUNNDROID">For new games and updates, search \"aunndroid\" in the market and facebook.</string>
+
+	<!-- Dialog String -->
+	<string name="START">Start</string>
+	<string name="WAIT">Wait</string>
+	<string name="ENTER_USERNAME_AND_PASSWORD">Google Username and Password</string>
+	<string name="FRIENDID_IS_USERNAME">You must be kidding! You cannot play against yourself. Please Enter your friend ID not yours!</string>
+	<string name="CONNECTION_ERROR">Connection Error</string>
+	<string name="NO_CONNECTION">Cannot connect to the google IM server. Check your Internet Connection and try again later.</string>
+	<string name="USER_PASSWORD">Cannot login to the google Server. Make sure your Username and password is correct.</string>
+	<string name="CONNECT_FIRST_TITLE">Connect to A2A</string>
+	<string name="CONNECT_FIRST_MSG">If you would like to play/tolk with your friend, Click "A2A" to connect and invite the friend first.</string>
+	<string name="DISCONNECT">Disconect</string>
+	<string name="FILE_TRANSFER_SUCCESS">File transfer completed successfully.</string>
+	<string name="FILE_TRANSFER_FAILED">File Transfer has failed.</string>
+	<string name="FILE_TRANSFER_FAILED_TITLE">File Transfer Failed</string>
+	<string name="FILE_TRANSFER_FAILED_BODY">File Transfer has failed. If there is no Gtalk/Network error, Try file transfer again. </string>
+    <string name="CHANGE_LOGIN_INFO">Change Login Info</string>
+	<string name="LITE_GAME_MSG">Lite Game can only wait for the paid version to start the A2A. Please get paid version to start A2A. </string>
+	<string name="LITE_GAME_TITLE">Lite Game</string>
+	<!-- Frequently used Strings -->
+	<string name="A2A">AunnDroid 2 AunnDroid</string>
+	<string name="FRIEND_CONNECTION_LOST_TITLE">Friend Disconnected</string>
+	<string name="FRIEND_CONNECTION_LOST_MSG">\s has disconnected or lost connection.</string>
+	<string name="TOLKING_CHEAP">Please, spare me some changes to buy this cool app? :P I am out of free tolks.</string>
+	<string name="CHEAP_TOLKER">No more free tolks. Begging money from friend to buy this app. :D</string>
+	<string name="TOLK">Tolk</string>
+	<string name="AUTO_DISCONNECT_TITLE">Auto disconnecting</string>
+	<string name="AUTO_DISCONNECT_MSG">To preserve your system resources, the application has auto disconnected.</string>
+	<string name="LETS_TOLK">Let\'s Tolk!!!</string>
+	<string name="IS_LOGON_TO">\s is logged on to \s</string>
+	<string name="IS_LOGOFF_FROM">\s has logged off from \s</string>
+	<string name="WHAT_IS_A2A">A2A (Aunndroid 2 Aunndroid) : Play game Across carriers, Across handsets.\n\n</string>
+	<string name="ME">Me</string>
+    <string name="play_label">Play</string>
+    <string name="about_label">About</string>
+    <string name="exit_label">Exit</string>
+    <string name="about_text">The TicTacTolk game is brought to you by AunnDroid Software"</string>
+    <string name="menu_label">Menu</string>
+	<string name="YES">YES</string>
+	<string name="NO">NO</string>
+	<string name="CANCEL">Cancel</string>
+	<string name="OK">OK</string>
+	<string name="eula_title">License and Credit</string>
+	<string name="eula_accept">Accept</string>
+	<string name="eula_refuse">Refuse</string>
+	<string name="setting">Setting</string>
+<!-- Code -->
+
+	<string name="HOST_CODE">talk.google.com</string>
+	<string name="SERVICE_CODE">gmail.com</string>
+	<!-- SharePreferences String -->
+	<string name="USERNAME_CODE">Username</string>
+	<string name="PASSWORD_CODE">Password</string>
+	<string name="STORELOGIN_CODE">StoredLogin</string>
+	<string name="prefFile_CODE">prefFile</string>
+	<string name="FRIEND_ID_CODE">FriendID</string>
+
+	<color name="red">#ff00ff</color>
+</resources>

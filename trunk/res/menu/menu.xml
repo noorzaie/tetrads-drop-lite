@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:title="@string/a2a_label"
+	android:id="@+id/a2a_button"
+	android:icon="@drawable/ic_menu_cc"></item>
+	<item android:title="@string/TOLK"
+	android:id="@+id/tolk_menu_button"
+	android:icon="@drawable/ic_launcher_im"></item>
+	<item android:title="@string/setting"
+	android:id="@+id/setting_button"
+    android:icon="@drawable/ic_menu_preferences"></item>
+</menu>

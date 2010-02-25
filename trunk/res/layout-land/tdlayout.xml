@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/widget35"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:TdView="http://schemas.android.com/apk/res/com.aunndroid.View.TdView"
+	xmlns:SView="http://schemas.android.com/apk/res/com.aunndroid.View.SView"
+	xmlns:app="http://schemas.android.com/apk/res/com.aunndroid.TetradsDropLite">
+
+	<com.aunndroid.View.TdView
+		android:id="@+id/tDview"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="0.0"
+		android:scaleType="center"
+		android:layout_alignParentTop="true" />
+
+
+    <TextView
+          android:id="@+id/number"
+		  android:visibility="invisible"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:gravity="center_horizontal"
+          android:textColor="#ff1e90ff"
+          android:textStyle="bold"
+          android:shadowColor="#88ffffff"
+          android:shadowDx="1.8"
+          android:shadowDy="1.8"
+    	  android:shadowRadius="0.1"
+          android:typeface="sans"
+          android:textSize="192dp"/>
+
+	<com.aunndroid.View.SView
+		android:id="@+id/sView"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="0.0"
+		android:scaleType="center"
+		android:layout_alignParentTop="true"
+		android:layout_toRightOf="@+id/tDview" />
+
+	<LinearLayout
+		android:id="@+id/button_group"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_marginLeft="4dp"
+		android:layout_gravity="center"
+		android:minWidth="75dp"
+		android:layout_below="@id/sView"
+		android:layout_toRightOf="@id/tDview"
+		android:orientation="vertical">
+		<ToggleButton
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:id="@+id/single_toggle_button"
+			android:textOff="@string/single_label"
+			android:textOn="@string/single_label"
+			android:layout_gravity="center"/>
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:text="@string/TOLK"
+			android:id="@+id/tolk_button1"
+			android:layout_gravity="center"/>
+
+		<Button android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:id="@+id/a2a_button"
+			android:text="@string/a2a_label"
+			android:layout_gravity="center"/>
+		</LinearLayout>
+
+	<ScrollView android:id="@+id/scroll_view"
+		android:layout_toRightOf="@id/button_group"
+		android:layout_marginRight="4dp"
+		android:layout_marginTop="4dp"
+		android:layout_marginLeft="4dp"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:scrollbars="vertical"
+        android:background="@android:drawable/edit_text"
+        android:scrollbarStyle="outsideOverlay"
+		android:scrollbarAlwaysDrawVerticalTrack="true"
+		android:layout_above="@+id/ad">
+		<TextView android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+			android:id="@+id/message_box"
+            android:textColor="#000000" />
+	</ScrollView>
+	      <com.admob.android.ads.AdView
+		  android:visibility="visible"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/ad"
+          app:keywords="aunndroid tolk"
+          app:testing="false" 
+          android:layout_above="@+id/tolk_layout"
+          android:layout_toRightOf="@+id/button_group"/>
+          
+	<RelativeLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:id="@+id/tolk_layout"
+  		android:layout_toRightOf="@+id/button_group"
+        android:layout_above="@+id/dot"
+		android:orientation="horizontal"
+		android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pzl_selected">
+
+        <EditText android:id="@+id/tolk_edit_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:autoText="false"
+            android:capitalize="none"
+            android:layout_toLeftOf="@+id/tolk_button"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+            android:minWidth="50dp"
+			android:layout_width="wrap_content"
+			android:id="@+id/tolk_button"
+			android:text="@string/TOLK"
+			android:layout_alignParentRight="true"
+            android:layout_marginTop="4dp"/>
+	</RelativeLayout>
+	
+	<ImageView android:id="@+id/dot"
+		android:src="@drawable/dot"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"/>
+</RelativeLayout>
