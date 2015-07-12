@@ -1,0 +1,1 @@
+Android puzzle game which make use of smack for gtalk service to establish aunndroid 2 aunndroid (a2a) to make two android phones allow to play game against each other.
